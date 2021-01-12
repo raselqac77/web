@@ -1,0 +1,83 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .breadcrumb-item+.breadcrumb-item {
+        padding-left: 0;
+    }
+    .breadcrumb-item+.breadcrumb-item::before {
+        padding-right: 0;
+        content: none; 
+    }
+    li.breadcrumb-item{
+        font-size: 29px;
+        padding-top: 15px;
+    }
+    .page-bg{
+        display: none;
+    }
+    .title h1 {
+        font-size: 30px;
+    }
+
+    section.content h1 {
+        font-size: 36px;
+    }
+    section.topbar {
+        width: 131%;
+    }
+    .page-play {
+        top: 25%;
+        left: -20px;
+        z-index: 99999;
+        padding-top: 30px;
+    }
+    .btns {
+        font-size: 35px;
+    }
+    section.content {
+        width: 130%;
+    }
+    .page-bg1 img {
+        top: 41%;
+        right: auto;
+    }
+    .page-bg1{
+        display: none;
+    }
+    .player{
+        display: none;
+    }
+    input.plc {
+        height: calc(1.5em + 1rem + 2px);
+    }
+    .content-left-im {
+        margin-top: 150px;
+    }
+    .f-content-right {
+        float: none;
+        margin-top: 60px;
+    }
+    #light {
+        border: 0;
+        background:transparent;
+        top: 50%;
+        left: 31%;
+        max-width: 532px;
+        max-height: 300px;
+        margin-left: -93px;
+        margin-top: -180px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 775.98px) {
+    .page-bg1{
+        display: none;
+    }
+    .player{
+        display: none;
+    }
+    section.topbar {
+        width: 131%;
+    }
+
+}
+
